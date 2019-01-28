@@ -1,0 +1,165 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+	/* achtergrondfoto strepen2!!! */
+  }
+
+  
+  /*navbar*/
+ 
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red/purple background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #330018;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  h3 {
+	  text-align: center;
+	  /* background-color: lightgray; */
+	  margin-top: 4%;
+	  color: gray;
+	  
+  }
+
+p {font-size: 16px;}
+  .margin {margin-bottom: 40px;}
+
+
+
+		/* acordion */
+.accordion {
+  background-color: #330018;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+  color: black;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+
+		/*footer*/
+	
+FOOTER {
+	height: 10%;
+	background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+	text-align: left;
+	margin-left: 0%;
+	padding-left: 5%;
+}
+ .linkKlas { 
+	 font-size: 16px;
+	 text-align: left;	/*werkt niet??*/
+	 color: lightblue;
+	 	padding-left: 2%;
+
+}
+
+  .pfooter { 
+	color: #ffffff;
+	font-size: 20px;
+  }
+  
+  .pfooter2 {
+	text-align: center;
+	font-size: 13px;
+
+  }
